@@ -88,7 +88,7 @@ const About = () => {
               Message from Our Founder
             </h2>
             <p className="text-muted-foreground mb-4 leading-relaxed">
-              "When I founded Attorneys’ Alliance Services over three decades ago, I had a simple 
+              "When I founded Attorney's Alliance Services over three decades ago, I had a simple 
               vision: to create a firm where legal excellence meets genuine client care. 
               Today, I'm proud to lead a team of exceptional attorneys who share this 
               commitment to making a meaningful difference in our clients' lives."
@@ -136,7 +136,7 @@ const About = () => {
                   Foundation
                 </h3>
                 <p className="text-muted-foreground">
-                  Attorneys’ Alliance Services was founded with a mission to provide exceptional 
+                  Attorney's Alliance Services was founded with a mission to provide exceptional 
                   legal counsel to businesses and individuals in New York.
                 </p>
               </div>

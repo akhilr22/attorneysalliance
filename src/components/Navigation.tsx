@@ -40,7 +40,7 @@ const Navigation = () => {
             <span className={`font-light text-lg tracking-wide transition-colors duration-500 ${
               scrolled ? "text-foreground" : "text-background"
             }`}>
-              Attorneys’ Alliance
+              Attorney's Alliance
             </span>
           </Link>
 

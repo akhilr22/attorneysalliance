@@ -61,7 +61,7 @@ const Index = () => {
               Three Decades of Legal Excellence
             </h2>
             <p className="text-muted-foreground leading-relaxed font-light text-lg">
-              Attorneys’ Alliance Services combines deep expertise with innovative approaches to 
+              Attorney's Alliance Services combines deep expertise with innovative approaches to 
               deliver exceptional results. We build lasting relationships based on trust and 
               integrity.
             </p>
