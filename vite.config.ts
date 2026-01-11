@@ -4,7 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
-  base: "/attorneysalliance/",  // <-- REQUIRED FOR GITHUB PAGES
+  base: "/",  // <-- REQUIRED FOR GITHUB PAGES
 
   server: {
     host: "::",
