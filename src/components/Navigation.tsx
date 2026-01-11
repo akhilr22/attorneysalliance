@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Scale } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -35,13 +36,14 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 group">
             <Scale className={`h-6 w-6 transition-all duration-500 ${
-              scrolled ? "text-foreground" : "text-background"
+              location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground" : "text-background"
             } group-hover:scale-110`} />
             <span className={`font-light text-lg tracking-wide transition-colors duration-500 ${
-              scrolled ? "text-foreground" : "text-background"
+              location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground" : "text-background" }
             }`}>
               Attorney's Alliance
             </span>
+ 
           </Link>
 
           {/* Desktop Navigation */}
@@ -51,12 +53,12 @@ const Navigation = () => {
                 key={link.path}
                 to={link.path}
                 className={`text-sm font-light tracking-wide transition-all duration-300 relative group ${
-                  scrolled ? "text-foreground hover:text-foreground" : "text-background/90 hover:text-background"
+                  location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground hover:text-foreground" : "text-background/90 hover:text-background"
                 }`}
               >
                 {link.name}
                 <span className={`absolute -bottom-1 left-0 w-0 h-px transition-all duration-300 group-hover:w-full ${
-                  scrolled ? "bg-foreground" : "bg-background"
+                  location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "bg-foreground" : "bg-background"
                 }`} />
               </Link>
             ))}
