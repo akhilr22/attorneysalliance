@@ -22,9 +22,9 @@ const LawyerCard = ({ id, name, role, image }: LawyerCardProps) => {
           <img
             src={displayImage}
             alt={`${name} - ${role}`}
-            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+            className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 " // add grayscale group-hover:grayscale-0
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/0 to-foreground/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+          {/* <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/0 to-foreground/0 opacity-0 group-hover:opacity-100 transition-opacity duration-500" /> */}
           <div className="absolute bottom-6 right-6 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-x-4 group-hover:translate-x-0">
             <div className="w-10 h-10 rounded-full bg-background flex items-center justify-center">
               <ArrowRight className="h-5 w-5 text-foreground" />

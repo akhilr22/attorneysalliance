@@ -83,25 +83,7 @@ const LawyerDetail = () => {
                 </CardContent>
               </Card>
 
-              {/* Expertise Tags */}
-              <Card className="mt-6">
-                <CardContent className="p-6">
-                  <h3 className="font-semibold text-foreground mb-4 flex items-center gap-2">
-                    <Award className="h-5 w-5 text-primary" />
-                    Areas of Expertise
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    {lawyer.expertise.map((area) => (
-                      <span
-                        key={area}
-                        className="px-3 py-1 bg-muted text-foreground text-sm rounded-full"
-                      >
-                        {area}
-                      </span>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
+              
             </div>
 
             {/* Main Content */}
@@ -119,31 +101,31 @@ const LawyerDetail = () => {
               </Card>
 
               {/* Education */}
-              <Card>
+              {!!lawyer.education.length && <Card>
                 <CardContent className="p-6">
                   <h2 className="text-2xl font-serif font-bold text-foreground mb-4 flex items-center gap-2">
                     <GraduationCap className="h-6 w-6 text-primary" />
                     Education
                   </h2>
                   <ul className="space-y-2">
-                    {lawyer.education.map((edu, index) => (
+                    {lawyer.education?.map((edu, index) => (
                       <li key={index} className="text-muted-foreground">
                         • {edu}
                       </li>
                     ))}
                   </ul>
                 </CardContent>
-              </Card>
+              </Card>}
 
               {/* Experience Timeline */}
-              <Card>
+             {!!lawyer.experience[0].title &&  <Card>
                 <CardContent className="p-6">
                   <h2 className="text-2xl font-serif font-bold text-foreground mb-6 flex items-center gap-2">
                     <Briefcase className="h-6 w-6 text-primary" />
                     Professional Experience
                   </h2>
                   <div className="space-y-6">
-                    {lawyer.experience.map((exp, index) => (
+                    {lawyer.experience?.map((exp, index) => (
                       <div key={index} className="border-l-2 border-primary pl-6 relative">
                         <div className="absolute -left-2 top-0 w-4 h-4 rounded-full bg-primary" />
                         <div className="text-sm text-primary font-semibold mb-1">
@@ -159,7 +141,7 @@ const LawyerDetail = () => {
                     ))}
                   </div>
                 </CardContent>
-              </Card>
+              </Card>}
 
               {/* Case Highlights */}
               <Card>
@@ -185,6 +167,26 @@ const LawyerDetail = () => {
                       Recognized by peers as a leader in their practice area
                     </li>
                   </ul>
+                </CardContent>
+              </Card>
+              {/* Expertise Tags */}
+              <Card className="mt-6">
+                <CardContent className="p-6">
+                <h2 className="flex items-center gap-2 text-2xl font-serif font-bold text-foreground mb-4">
+                   {/* <Award className="h-5 w-5 text-primary" /> */}
+                   Areas of Expertise
+                    </h2>
+                  
+                  <div className="flex flex-wrap gap-2">
+                    {lawyer.expertise.map((area) => (
+                      <span
+                        key={area}
+                        className="px-3 py-1 bg-muted text-foreground text-sm rounded-full"
+                      >
+                        {area}
+                      </span>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             </div>
