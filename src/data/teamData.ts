@@ -138,8 +138,114 @@ export const teamData = [
     ],
     email: "",
     phone: ""
+  },
+
+  // ===== Newly Added Associates =====
+
+  {
+    id: "athul-roy",
+    name: "Athul Roy",
+    role: "Associate",
+    image: "/team/athul-roy.png",
+    bio: "",
+    expertise: [],
+    education: [
+      "BBA LLB (Hons)",
+      "LLM - Corporate and Financial Laws"
+    ],
+    experience: [
+      {
+        year: "4 years",
+        title: "Associate",
+        description: ""
+      }
+    ],
+    email: "royvakkeel@gmail.com",
+    phone: "9061430452"
+  },
+  {
+    id: "renuka-venu",
+    name: "Renuka Venu",
+    role: "Associate",
+    image: "/team/renuka-venu.png",
+    bio: "",
+    expertise: [],
+    education: [
+      "BA LLB"
+    ],
+    experience: [
+      {
+        year: "7 years",
+        title: "Associate",
+        description: ""
+      }
+    ],
+    email: "paru.renuka@gmail.com",
+    phone: "8089269964"
+  },
+  {
+    id: "indrajith-dileep",
+    name: "Indrajith Dileep",
+    role: "Associate",
+    image: "",
+    bio: "",
+    expertise: [],
+    education: [
+      "BA LLB (Hons)",
+      "LLM - Corporate and Financial Laws"
+    ],
+    experience: [
+      {
+        year: "2 years",
+        title: "Associate",
+        description: ""
+      }
+    ],
+    email: "indrajithdileep2000@gmail.com",
+    phone: "9496699550"
+  },
+  {
+    id: "amala-anna-thottupuram",
+    name: "Amala Anna Thottupuram",
+    role: "Associate",
+    image: "/team/amala-anna-thottupuram.png",
+    bio: "",
+    expertise: [],
+    education: [
+      "BBA LLB"
+    ],
+    experience: [
+      {
+        year: "1 year",
+        title: "Associate",
+        description: ""
+      }
+    ],
+    email: "annaamala247@gmail.com",
+    phone: "7902629981"
+  },
+  {
+    id: "abraham-p-korah",
+    name: "Abraham P. Korah",
+    role: "Associate",
+    image: "",
+    bio: "",
+    expertise: [],
+    education: [
+      "BA LLB"
+    ],
+    experience: [
+      {
+        year: "33 years",
+        title: "Associate",
+        description: ""
+      }
+    ],
+    email: "advocateapk@gmail.com",
+    phone: "9846040094"
   }
 ]
+
 
 
 // export const teamData: Lawyer[] = [
