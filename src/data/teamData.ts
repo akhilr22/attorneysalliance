@@ -44,7 +44,7 @@ export const teamData = [
     id: "s-prasanth",
     name: "Adv. S. Prasanth",
     role: "Partner | Litigation & Arbitration",
-    image: "/attorneysalliance/team/s-prasanth.png",
+    image: "/team/s-prasanth.png",
     bio: "Advocate S. Prasanth has over 31 years of professional experience across civil, criminal, commercial, and arbitration matters. He regularly appears before the High Court of Kerala, the Armed Forces Tribunal, and various statutory and quasi-judicial bodies. He also serves as Standing Counsel to governmental and constitutional authorities and is known for his balanced, practical, and solution-oriented approach.",
     expertise: [
       "Civil & Criminal Litigation",
@@ -68,7 +68,7 @@ export const teamData = [
     id: "cr-syam-kumar",
     name: "Adv. C.R. Syam Kumar",
     role: "Partner | Litigation & Arbitration",
-    image: "/attorneysalliance/team/cr-syam-kumar.png",
+    image: "/team/cr-syam-kumar.png",
     bio: "Advocate C.R. Syam Kumar brings more than 34 years of active legal practice, with a strong focus on civil, commercial, arbitration, and family law. He has served as Senior Government Pleader and Additional Central Government Standing Counsel and has been associated with several important reported judgments. He is widely regarded for his legal clarity, depth of preparation, and principled advocacy.",
     expertise: [
       "Civil & Commercial Litigation",
@@ -119,7 +119,7 @@ export const teamData = [
     id: "p-sreekumar",
     name: "Sr. Adv. P. Sreekumar",
     role: "Partner | Senior Advocate",
-    image: "/attorneysalliance/team/p-sreekumar.png",
+    image: "/team/p-sreekumar.png",
     bio: "Senior Advocate P. Sreekumar has over 32 years of experience before the Supreme Court of India and several High Courts. He is known for his thoughtful legal advice and wide practice across arbitration, education law, family law, civil and criminal litigation. He has advised and represented several public bodies and institutions.",
     expertise: [
       "Constitutional Law",
