@@ -68,8 +68,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Phone</h3>
-                    <p className="text-muted-foreground text-sm">+1 (555) 123-4567</p>
-                    <p className="text-xs text-muted-foreground mt-1">Mon-Fri, 9AM-6PM EST</p>
+                    <a href="tel:04842393600" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                      04842393600
+                    </a>
+                    <p className="text-xs text-muted-foreground mt-1">Mon-Fri, 9AM-8PM</p>
                   </div>
                 </div>
               </CardContent>
@@ -83,7 +85,9 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Email</h3>
-                    <p className="text-muted-foreground text-sm">info@premierlegal.com</p>
+                    <a href="mailto:info@premierlegal.com" className="text-muted-foreground hover:text-primary transition-colors text-sm">
+                      info@premierlegal.com
+                    </a>
                     <p className="text-xs text-muted-foreground mt-1">Response within 24 hours</p>
                   </div>
                 </div>
@@ -99,8 +103,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Office</h3>
                     <p className="text-muted-foreground text-sm">
-                      123 Legal Plaza<br />
-                      New York, NY 10001
+                      2nd Floor, Chundanal Monarch<br /> K K Padmanabhan Road,<br />  Ernakulam Kochi, Kerala 682018
                     </p>
                   </div>
                 </div>
@@ -116,8 +119,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground mb-2">Business Hours</h3>
                     <p className="text-muted-foreground text-sm">
-                      Mon-Fri: 9AM - 6PM<br />
-                      Sat: 10AM - 2PM<br />
+                      Mon-Sat: 9AM - 8PM<br />
                       Sun: Closed
                     </p>
                   </div>
@@ -131,7 +133,7 @@ const Contact = () => {
             <CardContent className="p-0">
               <div className="h-[400px] lg:h-[500px] bg-muted rounded-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343!2d-74.00425878428698!3d40.74844097932847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1234567890"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3928.6171234567!2d76.27987350685966!3d9.989652000467759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOcKwNTknMjIuNyJOIDc2wrAxNic0Ny41IkU!5e0!3m2!1sen!2sin!4v1234567890"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

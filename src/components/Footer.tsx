@@ -66,17 +66,21 @@ const Footer = () => {
           <div>
             <h3 className="font-light text-foreground mb-4 tracking-wide">Contact</h3>
             <ul className="space-y-3">
-              <li className="flex items-center gap-3 text-muted-foreground text-sm font-light">
+              <li className="flex items-center gap-3 text-sm font-light">
                 <Phone className="h-4 w-4 text-foreground/40" />
-                +1 (555) 123-4567
+                <a href="tel:04842393600" className="text-muted-foreground hover:text-foreground transition-colors">
+                  04842393600
+                </a>
               </li>
-              <li className="flex items-center gap-3 text-muted-foreground text-sm font-light">
+              <li className="flex items-center gap-3 text-sm font-light">
                 <Mail className="h-4 w-4 text-foreground/40" />
-                info@premierlegal.com
+                <a href="mailto:info@premierlegal.com" className="text-muted-foreground hover:text-foreground transition-colors">
+                  info@premierlegal.com
+                </a>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground text-sm font-light">
                 <MapPin className="h-4 w-4 text-foreground/40 mt-0.5" />
-                <span>123 Legal Plaza<br />New York, NY 10001</span>
+                <span>2nd Floor, Chundanal Monarch<br /> K K Padmanabhan Road,<br />  Ernakulam Kochi, Kerala 682018</span>
               </li>
             </ul>
           </div>
