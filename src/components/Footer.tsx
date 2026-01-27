@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Scale, Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,7 +9,11 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <Link to="/" className="flex items-center gap-3 mb-4 group">
-              <Scale className="h-6 w-6 text-foreground transition-transform duration-300 group-hover:scale-110" />
+              <img
+                src="/attorneys_alliance_logo.png"
+                alt="Attorney's Alliance Logo"
+                className="h-16 w-auto transition-transform duration-300 group-hover:scale-110"
+              />
               <span className="font-light text-lg tracking-wide text-foreground">
                 Attorney's Alliance
               </span>

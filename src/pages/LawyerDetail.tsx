@@ -31,7 +31,7 @@ const LawyerDetail = () => {
   return (
     <div className="min-h-screen">
       <Navigation />
-      
+
       <div className="pt-32 pb-16">
         <div className="max-w-7xl mx-auto px-6">
           <Button variant="ghost" asChild className="mb-6">
@@ -58,7 +58,7 @@ const LawyerDetail = () => {
                       {lawyer.name}
                     </h1>
                     <p className="text-muted-foreground mb-6">{lawyer.role}</p>
-                    
+
                     <div className="space-y-3 mb-6">
                       <a
                         href={`mailto:${lawyer.email}`}
@@ -83,7 +83,7 @@ const LawyerDetail = () => {
                 </CardContent>
               </Card>
 
-              
+
             </div>
 
             {/* Main Content */}
@@ -118,7 +118,7 @@ const LawyerDetail = () => {
               </Card>}
 
               {/* Experience Timeline */}
-             {!!lawyer.experience[0].title &&  <Card>
+              {!!lawyer.experience[0].title && <Card>
                 <CardContent className="p-6">
                   <h2 className="text-2xl font-serif font-bold text-foreground mb-6 flex items-center gap-2">
                     <Briefcase className="h-6 w-6 text-primary" />
@@ -144,7 +144,7 @@ const LawyerDetail = () => {
               </Card>}
 
               {/* Case Highlights */}
-              <Card>
+              {/* <Card>
                 <CardContent className="p-6">
                   <h2 className="text-2xl font-serif font-bold text-foreground mb-4">
                     Notable Achievements
@@ -168,15 +168,15 @@ const LawyerDetail = () => {
                     </li>
                   </ul>
                 </CardContent>
-              </Card>
+              </Card> */}
               {/* Expertise Tags */}
               <Card className="mt-6">
                 <CardContent className="p-6">
-                <h2 className="flex items-center gap-2 text-2xl font-serif font-bold text-foreground mb-4">
-                   {/* <Award className="h-5 w-5 text-primary" /> */}
-                   Areas of Expertise
-                    </h2>
-                  
+                  <h2 className="flex items-center gap-2 text-2xl font-serif font-bold text-foreground mb-4">
+                    {/* <Award className="h-5 w-5 text-primary" /> */}
+                    Areas of Expertise
+                  </h2>
+
                   <div className="flex flex-wrap gap-2">
                     {lawyer.expertise.map((area) => (
                       <span

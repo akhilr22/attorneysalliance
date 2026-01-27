@@ -81,7 +81,7 @@ const About = () => {
       </section>
 
       {/* Founder Spotlight */}
-      <section className="section-container">
+      {/* <section className="section-container">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-4xl font-serif font-bold text-foreground mb-6">
@@ -116,10 +116,10 @@ const About = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* History */}
-      <section className="section-container bg-muted">
+      {/* <section className="section-container bg-muted">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-serif font-bold text-foreground mb-8 text-center">
             Our Journey
@@ -191,7 +191,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

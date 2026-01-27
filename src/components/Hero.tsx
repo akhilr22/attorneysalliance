@@ -42,17 +42,17 @@ const Hero = ({ title, subtitle, showCTA = true, height = "full" }: HeroProps) =
         </p>
         {showCTA && (
           <div className="flex gap-4 justify-center flex-wrap animate-scale-in" style={{ animationDelay: "0.4s" }}>
-            <Button 
-              size="lg" 
-              asChild 
+            <Button
+              size="lg"
+              asChild
               className="rounded-full px-8 transition-all duration-500 hover:scale-105 hover:shadow-2xl"
             >
-              <Link to="/contact">Schedule Consultation</Link>
+              <Link to="/contact">Get in touch</Link>
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
-              asChild 
+            <Button
+              size="lg"
+              variant="outline"
+              asChild
               className="rounded-full px-8 bg-background/10 backdrop-blur-sm border-background/30 text-background hover:bg-background hover:text-foreground transition-all duration-500 hover:scale-105"
             >
               <Link to="/expertise">Our Services</Link>

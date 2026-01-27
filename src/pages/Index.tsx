@@ -44,9 +44,9 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       <DisclaimerPopup />
-      
+
       <Hero
-        title="Excellence in Legal Counsel"
+        title="ATTORNEY'S ALLIANCE LAW FIRM"
         subtitle="Trusted advisors providing strategic legal solutions for over 30 years"
       />
 
@@ -61,13 +61,13 @@ const Index = () => {
               Three Decades of Legal Excellence
             </h2>
             <p className="text-muted-foreground leading-relaxed font-light text-lg">
-              Attorney's Alliance Services combines deep expertise with innovative approaches to 
-              deliver exceptional results. We build lasting relationships based on trust and 
+              Attorney's Alliance Services combines deep expertise with innovative approaches to
+              deliver exceptional results. We build lasting relationships based on trust and
               integrity.
             </p>
-            <Button 
-              asChild 
-              size="lg" 
+            <Button
+              asChild
+              size="lg"
               variant="outline"
               className="rounded-full px-8 transition-all duration-500 hover:scale-105"
             >
@@ -97,8 +97,8 @@ const Index = () => {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {featuredLawyers.map((lawyer, index) => (
-            <div 
-              key={lawyer.id} 
+            <div
+              key={lawyer.id}
               className="animate-slide-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
@@ -112,9 +112,9 @@ const Index = () => {
           ))}
         </div>
         <div className="text-center">
-          <Button 
-            asChild 
-            size="lg" 
+          <Button
+            asChild
+            size="lg"
             className="rounded-full px-8 transition-all duration-500 hover:scale-105"
           >
             <Link to="/team">Meet Full Team</Link>
@@ -134,8 +134,8 @@ const Index = () => {
           {practices.map((practice, index) => {
             const Icon = practice.icon;
             return (
-              <Card 
-                key={index} 
+              <Card
+                key={index}
                 className="border-0 bg-background hover-lift transition-all duration-500 group animate-scale-in"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
@@ -153,8 +153,8 @@ const Index = () => {
           })}
         </div>
         <div className="text-center mt-12">
-          <Button 
-            asChild 
+          <Button
+            asChild
             size="lg"
             variant="outline"
             className="rounded-full px-8 transition-all duration-500 hover:scale-105"
@@ -174,8 +174,8 @@ const Index = () => {
         </div>
         <div className="grid md:grid-cols-3 gap-8">
           {thoughtLeadership.map((article, index) => (
-            <Card 
-              key={index} 
+            <Card
+              key={index}
               className="overflow-hidden border-0 hover-lift transition-all duration-500 group animate-fade-in"
               style={{ animationDelay: `${index * 0.15}s` }}
             >

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Scale } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "./ui/button";
 
 const Navigation = () => {
@@ -25,25 +25,28 @@ const Navigation = () => {
   ];
 
   return (
-    <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled 
-          ? "bg-background/80 backdrop-blur-xl border-b border-border" 
-          : "bg-transparent"
-      }`}
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
+        ? "bg-background/80 backdrop-blur-xl border-b border-border"
+        : "bg-transparent"
+        }`}
     >
       <div className="max-w-6xl mx-auto px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 group">
-            <Scale className={`h-6 w-6 transition-all duration-500 ${
-              location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground" : "text-background"
-            } group-hover:scale-110`} />
-            <span className={`font-light text-lg tracking-wide transition-colors duration-500 ${
-              location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground" : "text-background" }
+            <img
+              src="/attorneys_alliance_logo.png"
+              alt="Attorney's Alliance Logo"
+              className={`h-14 w-auto transition-all duration-500 group-hover:scale-110 ${location.pathname.includes("lawyer") || scrolled
+                ? ""
+                : "brightness-0 invert"
+                }`}
+            />
+            <span className={`font-light text-lg tracking-wide transition-colors duration-500 ${location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground" : "text-background"}
             }`}>
               Attorney's Alliance
             </span>
- 
+
           </Link>
 
           {/* Desktop Navigation */}
@@ -52,32 +55,29 @@ const Navigation = () => {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`text-sm font-light tracking-wide transition-all duration-300 relative group ${
-                  location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground hover:text-foreground" : "text-background/90 hover:text-background"
-                }`}
+                className={`text-sm font-light tracking-wide transition-all duration-300 relative group ${location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground hover:text-foreground" : "text-background/90 hover:text-background"
+                  }`}
               >
                 {link.name}
-                <span className={`absolute -bottom-1 left-0 w-0 h-px transition-all duration-300 group-hover:w-full ${
-                  location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "bg-foreground" : "bg-background"
-                }`} />
+                <span className={`absolute -bottom-1 left-0 w-0 h-px transition-all duration-300 group-hover:w-full ${location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "bg-foreground" : "bg-background"
+                  }`} />
               </Link>
             ))}
-            <Button 
-              variant="default" 
+            {/* <Button
+              variant="default"
               size="sm"
               asChild
               className="rounded-full px-6 transition-all duration-300 hover:scale-105"
             >
               <Link to="/contact">Get Started</Link>
-            </Button>
+            </Button> */}
           </div>
 
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className={`md:hidden transition-colors duration-300 ${
-              scrolled ? "text-foreground" : "text-background"
-            }`}
+            className={`md:hidden transition-colors duration-300 ${scrolled ? "text-foreground" : "text-background"
+              }`}
             aria-label="Toggle menu"
           >
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -98,11 +98,11 @@ const Navigation = () => {
                   {link.name}
                 </Link>
               ))}
-              <Button variant="default" asChild className="w-full rounded-full mt-2">
+              {/* <Button variant="default" asChild className="w-full rounded-full mt-2">
                 <Link to="/contact" onClick={() => setIsOpen(false)}>
                   Get Started
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
         )}

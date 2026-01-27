@@ -92,7 +92,7 @@ export const teamData = [
     id: "sooraj-t-elenjickal",
     name: "Adv. Sooraj T. Elenjickal",
     role: "Partner | Litigation & Arbitration",
-    image: "",
+    image: "/team/sooraj-t-elenjickal.png",
     bio: "Advocate Sooraj T. Elenjickal has over 26 years of experience before the Supreme Court of India, the High Court of Kerala, and various courts and tribunals. He handles a wide range of matters including constitutional, criminal, corporate, and financial disputes, and is known for his confident courtroom presence and his work in complex and sensitive cases.",
     expertise: [
       "Criminal Law",
@@ -228,7 +228,7 @@ export const teamData = [
     id: "abraham-p-korah",
     name: "Abraham P. Korah",
     role: "Associate",
-    image: "",
+    image: "/team/abraham-p-korah.png",
     bio: "",
     expertise: [],
     education: [
