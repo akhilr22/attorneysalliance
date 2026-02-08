@@ -89,7 +89,7 @@ const Footer = () => {
         {/* Social & Copyright */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground font-light">
-            © 2024 Attorney's Alliance Services. All rights reserved.
+            © 2026 Attorney's Alliance Services. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a

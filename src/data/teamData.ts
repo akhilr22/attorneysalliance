@@ -187,7 +187,7 @@ export const teamData = [
     id: "indrajith-dileep",
     name: "Indrajith Dileep",
     role: "Associate",
-    image: "",
+    image: "/team/indrajith-dileep.png",
     bio: "",
     expertise: [],
     education: [
@@ -243,6 +243,26 @@ export const teamData = [
     ],
     email: "advocateapk@gmail.com",
     phone: "9846040094"
+  },
+  {
+    id: "helen-p-a",
+    name: "Helen P A",
+    role: "Associate",
+    image: "/team/helen-p-a.png",
+    bio: "",
+    expertise: [],
+    education: [
+      "BA LLB"
+    ],
+    experience: [
+      {
+        year: "** years",
+        title: "Associate",
+        description: ""
+      }
+    ],
+    email: "Helenjude71@gmail.com",
+    phone: "9847332000"
   }
 ]
 

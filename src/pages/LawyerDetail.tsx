@@ -89,7 +89,7 @@ const LawyerDetail = () => {
             {/* Main Content */}
             <div className="md:col-span-2 space-y-8">
               {/* Biography */}
-              <Card>
+              {lawyer.bio &&<Card>
                 <CardContent className="p-6">
                   <h2 className="text-2xl font-serif font-bold text-foreground mb-4">
                     Biography
@@ -98,7 +98,7 @@ const LawyerDetail = () => {
                     {lawyer.bio}
                   </p>
                 </CardContent>
-              </Card>
+              </Card>}
 
               {/* Education */}
               {!!lawyer.education.length && <Card>
@@ -170,7 +170,7 @@ const LawyerDetail = () => {
                 </CardContent>
               </Card> */}
               {/* Expertise Tags */}
-              <Card className="mt-6">
+              {!!lawyer.expertise.length && <Card className="mt-6">
                 <CardContent className="p-6">
                   <h2 className="flex items-center gap-2 text-2xl font-serif font-bold text-foreground mb-4">
                     {/* <Award className="h-5 w-5 text-primary" /> */}
@@ -188,7 +188,7 @@ const LawyerDetail = () => {
                     ))}
                   </div>
                 </CardContent>
-              </Card>
+              </Card>}
             </div>
           </div>
         </div>
