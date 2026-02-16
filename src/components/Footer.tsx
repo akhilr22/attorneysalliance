@@ -66,12 +66,12 @@ const Footer = () => {
           <div>
             <h3 className="font-light text-foreground mb-4 tracking-wide">Contact</h3>
             <ul className="space-y-3">
-              <li className="flex items-center gap-3 text-sm font-light">
+              {/* <li className="flex items-center gap-3 text-sm font-light">
                 <Phone className="h-4 w-4 text-foreground/40" />
                 <a href="tel:04842393600" className="text-muted-foreground hover:text-foreground transition-colors">
                   04842393600
                 </a>
-              </li>
+              </li> */}
               <li className="flex items-center gap-3 text-sm font-light">
                 <Mail className="h-4 w-4 text-foreground/40" />
                 <a href="mailto:attorneysalliance@yahoo.in" className="text-muted-foreground hover:text-foreground transition-colors">

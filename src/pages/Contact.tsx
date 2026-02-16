@@ -66,13 +66,13 @@ const Contact = () => {
                   <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
                     <Phone className="h-6 w-6 text-primary" />
                   </div>
-                  <div>
+                  {/* <div>
                     <h3 className="font-semibold text-foreground mb-2">Phone</h3>
                     <a href="tel:04842393600" className="text-muted-foreground hover:text-primary transition-colors text-sm">
                       04842393600
                     </a>
                     <p className="text-xs text-muted-foreground mt-1">Mon-Fri, 9AM-8PM</p>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>

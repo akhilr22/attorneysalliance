@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-law.jpg";
 
 interface HeroProps {
-  title: string;
+  title: string | { mainTitle: string; subTitle: string };
   subtitle: string;
   showCTA?: boolean;
   height?: "full" | "medium";
@@ -35,7 +35,14 @@ const Hero = ({ title, subtitle, showCTA = true, height = "full" }: HeroProps) =
       {/* Content */}
       <div className="relative z-10 text-center px-8 max-w-5xl">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight text-background mb-8 animate-slide-up leading-tight">
-          {title}
+          {typeof title === 'string' ? (
+            title
+          ) : (
+            <div className="flex flex-col items-center">
+              <span className="whitespace-nowrap">{title.mainTitle}</span>
+              <span className="text-3xl md:text-4xl lg:text-5xl mt-2 whitespace-nowrap">{title.subTitle}</span>
+            </div>
+          )}
         </h1>
         <p className="text-lg md:text-xl text-background/80 mb-12 font-light max-w-2xl mx-auto animate-fade-in leading-relaxed" style={{ animationDelay: "0.2s" }}>
           {subtitle}

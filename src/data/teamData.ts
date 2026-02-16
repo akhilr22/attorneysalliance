@@ -20,7 +20,7 @@ export const teamData = [
     id: "s-gopakumaran-nair",
     name: "Dr. S. Gopakumaran Nair",
     role: "Chairman | Senior Advocate",
-    image: "",
+    image: "/team/s-gopakumaran-nair.png",
     bio: "Dr. S. Gopakumaran Nair is the Chairman of the Firm and a Senior Advocate with over 53 years of distinguished legal practice before the Supreme Court of India and the High Court of Kerala. He has held several prominent positions in the legal profession, including Chairman of the Bar Council of India, Chairman of the Bar Council of Kerala, and President of the Kerala High Court Advocates’ Association. He is widely respected for his contribution to constitutional law, writ jurisdiction, and academic governance, and continues to advise and represent leading public institutions.",
     expertise: [
       "Constitutional & Administrative Law",
@@ -37,11 +37,11 @@ export const teamData = [
         description: ""
       }
     ],
-    email: "",
-    phone: ""
+    email: "sundaresangknair@gmail.com",
+    phone: "9717498937"
   },
   {
-    id: "s-prasanth",
+    id: "s-1anth",
     name: "Adv. S. Prasanth",
     role: "Partner | Litigation & Arbitration",
     image: "/team/s-prasanth.png",
@@ -61,8 +61,8 @@ export const teamData = [
         description: ""
       }
     ],
-    email: "",
-    phone: ""
+    email: "prasanth996@gmail.com",
+    phone: "9447060299"
   },
   {
     id: "cr-syam-kumar",
@@ -85,8 +85,8 @@ export const teamData = [
         description: ""
       }
     ],
-    email: "",
-    phone: ""
+    email: "syamsmitha@yahoo.com",
+    phone: "9446565361"
   },
   {
     id: "sooraj-t-elenjickal",
@@ -112,8 +112,8 @@ export const teamData = [
         description: ""
       }
     ],
-    email: "",
-    phone: ""
+    email: "adv.elenjickal@gmail.com",
+    phone: "9447050531"
   },
   {
     id: "p-sreekumar",
@@ -136,8 +136,8 @@ export const teamData = [
         description: ""
       }
     ],
-    email: "",
-    phone: ""
+    email: "vakilsreek@gmail.com",
+    phone: "9447070877"
   },
 
   // ===== Newly Added Associates =====
@@ -256,7 +256,7 @@ export const teamData = [
     ],
     experience: [
       {
-        year: "** years",
+        year: "6 years",
         title: "Associate",
         description: ""
       }

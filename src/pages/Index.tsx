@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 import aboutImage from "@/assets/about-office.jpg";
 
 const Index = () => {
-  const featuredLawyers = teamData.slice(0, 4);
+  const featuredLawyers = teamData.slice(0, 5);
 
   const practices = [
     { icon: Briefcase, title: "Corporate Law", description: "Strategic guidance for business success" },
@@ -46,7 +46,7 @@ const Index = () => {
       <DisclaimerPopup />
 
       <Hero
-        title="ATTORNEY'S ALLIANCE LAW FIRM"
+        title={{ mainTitle: "ATTORNEY'S ALLIANCE", subTitle: "LAW FIRM" }}
         subtitle="Trusted advisors providing strategic legal solutions for over 30 years"
       />
 
@@ -57,8 +57,8 @@ const Index = () => {
             <div className="inline-block">
               <span className="text-xs tracking-widest text-muted-foreground font-light">ABOUT US</span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-light text-foreground leading-tight">
-              Three Decades of Legal Excellence
+            <h2 className="text-4xl md:text-5xl font-light text-foreground leading-tight tabular-nums">
+              Twelve Years of Legal Excellence
             </h2>
             <p className="text-muted-foreground leading-relaxed font-light text-lg">
               Attorney's Alliance Services combines deep expertise with innovative approaches to
@@ -95,7 +95,7 @@ const Index = () => {
             Accomplished attorneys dedicated to serving our clients with expertise and care
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {featuredLawyers.map((lawyer, index) => (
             <div
               key={lawyer.id}
