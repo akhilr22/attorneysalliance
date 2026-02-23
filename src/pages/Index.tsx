@@ -200,7 +200,7 @@ const Index = () => {
       </section>
 
       {/* Awards */}
-      <section className="section-container bg-muted">
+      {/* <section className="section-container bg-muted">
         <div className="text-center max-w-4xl mx-auto animate-slide-up">
           <span className="text-xs tracking-widest text-muted-foreground font-light mb-4 block">RECOGNITION</span>
           <h2 className="text-4xl md:text-5xl font-light text-foreground mb-8 leading-tight">
@@ -213,7 +213,7 @@ const Index = () => {
             <Award className="h-12 w-12" />
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </div>

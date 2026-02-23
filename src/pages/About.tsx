@@ -13,7 +13,7 @@ const About = () => {
       
       <Hero
         title="About Us"
-        subtitle="Building a legacy of legal excellence since 1990"
+        subtitle="Building a legacy of legal excellence since 2014"
         showCTA={false}
         height="medium"
       />
