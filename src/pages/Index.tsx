@@ -166,7 +166,7 @@ const Index = () => {
       </section>
 
       {/* Thought Leadership */}
-      <section className="section-container">
+      {/* <section className="section-container">
         <div className="text-center mb-16 animate-slide-up">
           <span className="text-xs tracking-widest text-muted-foreground font-light mb-4 block">INSIGHTS</span>
           <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6 leading-tight">
@@ -198,7 +198,7 @@ const Index = () => {
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Awards */}
       {/* <section className="section-container bg-muted">
