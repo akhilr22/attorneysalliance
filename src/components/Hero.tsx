@@ -33,18 +33,18 @@ const Hero = ({ title, subtitle, showCTA = true, height = "full" }: HeroProps) =
       </div>
 
       {/* Content */}
-      <div className="relative z-10 text-center px-8 max-w-5xl">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight text-background mb-8 animate-slide-up leading-tight">
+      <div className="relative z-10 text-center px-4 sm:px-8 max-w-5xl">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light tracking-tight text-background mb-6 sm:mb-8 animate-slide-up leading-tight">
           {typeof title === 'string' ? (
             title
           ) : (
             <div className="flex flex-col items-center">
-              <span className="whitespace-nowrap">{title.mainTitle}</span>
-              <span className="text-3xl md:text-4xl lg:text-5xl mt-2 whitespace-nowrap">{title.subTitle}</span>
+              <span className="block text-center whitespace-normal sm:whitespace-nowrap">{title.mainTitle}</span>
+              <span className="block text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-1 sm:mt-2 whitespace-normal sm:whitespace-nowrap">{title.subTitle}</span>
             </div>
           )}
         </h1>
-        <p className="text-lg md:text-xl text-background/80 mb-12 font-light max-w-2xl mx-auto animate-fade-in leading-relaxed" style={{ animationDelay: "0.2s" }}>
+        <p className="text-base sm:text-lg md:text-xl text-background/80 mb-10 sm:mb-12 font-light max-w-2xl mx-auto animate-fade-in leading-relaxed" style={{ animationDelay: "0.2s" }}>
           {subtitle}
         </p>
         {showCTA && (

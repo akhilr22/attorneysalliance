@@ -71,19 +71,7 @@ const Expertise = () => {
         "Real Estate Litigation",
       ],
     },
-    {
-      icon: Shield,
-      title: "Healthcare Law",
-      description:
-        "Specialized legal services for healthcare providers, hospitals, and pharmaceutical companies, navigating complex regulatory environments.",
-      services: [
-        "Healthcare Compliance",
-        "HIPAA & Privacy",
-        "Medical Malpractice Defense",
-        "Healthcare Transactions",
-        "Regulatory Matters",
-      ],
-    },
+    
     {
       icon: Heart,
       title: "Family Law",
@@ -130,8 +118,6 @@ const Expertise = () => {
         "Sophisticated legal services for financial institutions, lending transactions, and regulatory compliance in the financial sector.",
       services: [
         "Banking & Finance Transactions",
-        "Regulatory Compliance",
-        "Secured Lending",
         "Restructuring & Bankruptcy",
         "Financial Services Litigation",
       ],
@@ -163,16 +149,12 @@ const Expertise = () => {
       ],
     },
     {
-      icon: FileText,
-      title: "Immigration",
+      icon: Shield,
+      title: "Healthcare Law",
       description:
-        "Comprehensive immigration services for individuals and businesses, facilitating legal immigration processes and compliance.",
+        "Specialized legal services for healthcare providers, hospitals, and pharmaceutical companies, navigating complex regulatory environments.",
       services: [
-        "Business Immigration",
-        "Family-Based Immigration",
-        "Visa Applications",
-        "Citizenship & Naturalization",
-        "Deportation Defense",
+       
       ],
     },
   ];
@@ -216,8 +198,9 @@ const Expertise = () => {
                       </p>
                     </div>
                   </div>
-                  
-                  <div className="border-t border-border pt-4">
+                  {
+                    area.services.length > 0 && ( 
+                      <div className="border-t border-border pt-4">
                     <h4 className="font-semibold text-foreground mb-3 text-sm">
                       Key Services:
                     </h4>
@@ -229,7 +212,11 @@ const Expertise = () => {
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> 
+                    )
+
+                  }
+                  
                 </CardContent>
               </Card>
             );

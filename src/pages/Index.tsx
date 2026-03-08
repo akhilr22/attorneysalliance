@@ -58,7 +58,7 @@ const Index = () => {
               <span className="text-xs tracking-widest text-muted-foreground font-light">ABOUT US</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-light text-foreground leading-tight tabular-nums">
-              Twelve Years of Legal Excellence
+              Decades of Legal Excellence
             </h2>
             <p className="text-muted-foreground leading-relaxed font-light text-lg">
               Attorney's Alliance Services combines deep expertise with innovative approaches to
@@ -107,6 +107,7 @@ const Index = () => {
                 name={lawyer.name}
                 role={lawyer.role}
                 image={lawyer.image}
+                image_zoom={lawyer.image_zoom}
               />
             </div>
           ))}

@@ -3,6 +3,7 @@ export interface Lawyer {
   name: string;
   role: string;
   image: string;
+  image_zoom?: number;
   bio: string;
   expertise: string[];
   education: string[];
@@ -21,6 +22,7 @@ export const teamData = [
     name: "Dr. S. Gopakumaran Nair",
     role: "Chairman | Senior Advocate",
     image: "/team/s-gopakumaran-nair.png",
+    image_zoom: 100,
     bio: "Dr. S. Gopakumaran Nair is the Chairman of the Firm and a Senior Advocate with over 53 years of distinguished legal practice before the Supreme Court of India and the High Court of Kerala. He has held several prominent positions in the legal profession, including Chairman of the Bar Council of India, Chairman of the Bar Council of Kerala, and President of the Kerala High Court Advocates’ Association. He is widely respected for his contribution to constitutional law, writ jurisdiction, and academic governance, and continues to advise and represent leading public institutions.",
     expertise: [
       "Constitutional & Administrative Law",
@@ -41,10 +43,36 @@ export const teamData = [
     phone: "9717498937"
   },
   {
+    id: "p-sreekumar",
+    name: "Sr. Adv. P. Sreekumar",
+    role: "Partner | Senior Advocate",
+    image: "/team/p-sreekumar.png",
+    image_zoom: 100,
+    bio: "Senior Advocate P. Sreekumar has over 32 years of experience before the Supreme Court of India and several High Courts. He is known for his thoughtful legal advice and wide practice across arbitration, education law, family law, civil and criminal litigation. He has advised and represented several public bodies and institutions.",
+    expertise: [
+      "Constitutional Law",
+      "Arbitration",
+      "Civil Litigation",
+      "Family Law",
+      "Education Law"
+    ],
+    education: [],
+    experience: [
+      {
+        year: "",
+        title: "",
+        description: ""
+      }
+    ],
+    email: "vakilsreek@gmail.com",
+    phone: "9447070877"
+  },
+  {
     id: "s-1anth",
     name: "Adv. S. Prasanth",
     role: "Partner | Litigation & Arbitration",
     image: "/team/s-prasanth.png",
+    image_zoom: 100,
     bio: "Advocate S. Prasanth has over 31 years of professional experience across civil, criminal, commercial, and arbitration matters. He regularly appears before the High Court of Kerala, the Armed Forces Tribunal, and various statutory and quasi-judicial bodies. He also serves as Standing Counsel to governmental and constitutional authorities and is known for his balanced, practical, and solution-oriented approach.",
     expertise: [
       "Civil & Criminal Litigation",
@@ -69,6 +97,7 @@ export const teamData = [
     name: "Adv. C.R. Syam Kumar",
     role: "Partner | Litigation & Arbitration",
     image: "/team/cr-syam-kumar.png",
+    image_zoom: 100,
     bio: "Advocate C.R. Syam Kumar brings more than 34 years of active legal practice, with a strong focus on civil, commercial, arbitration, and family law. He has served as Senior Government Pleader and Additional Central Government Standing Counsel and has been associated with several important reported judgments. He is widely regarded for his legal clarity, depth of preparation, and principled advocacy.",
     expertise: [
       "Civil & Commercial Litigation",
@@ -93,6 +122,7 @@ export const teamData = [
     name: "Adv. Sooraj T. Elenjickal",
     role: "Partner | Litigation & Arbitration",
     image: "/team/sooraj-t-elenjickal.png",
+    image_zoom: 105,
     bio: "Advocate Sooraj T. Elenjickal has over 26 years of experience before the Supreme Court of India, the High Court of Kerala, and various courts and tribunals. He handles a wide range of matters including constitutional, criminal, corporate, and financial disputes, and is known for his confident courtroom presence and his work in complex and sensitive cases.",
     expertise: [
       "Criminal Law",
@@ -115,38 +145,36 @@ export const teamData = [
     email: "adv.elenjickal@gmail.com",
     phone: "9447050531"
   },
-  {
-    id: "p-sreekumar",
-    name: "Sr. Adv. P. Sreekumar",
-    role: "Partner | Senior Advocate",
-    image: "/team/p-sreekumar.png",
-    bio: "Senior Advocate P. Sreekumar has over 32 years of experience before the Supreme Court of India and several High Courts. He is known for his thoughtful legal advice and wide practice across arbitration, education law, family law, civil and criminal litigation. He has advised and represented several public bodies and institutions.",
-    expertise: [
-      "Constitutional Law",
-      "Arbitration",
-      "Civil Litigation",
-      "Family Law",
-      "Education Law"
+  
+
+  // ===== Newly Added Associates =====
+{
+    id: "helen-p-a",
+    name: "Helen P A",
+    role: "Associate",
+    image: "/team/helen-p-a.png",
+    image_zoom: 100,
+    bio: "",
+    expertise: [],
+    education: [
+      "BA LLB"
     ],
-    education: [],
     experience: [
       {
-        year: "",
-        title: "",
+        year: "6 years",
+        title: "Associate",
         description: ""
       }
     ],
-    email: "vakilsreek@gmail.com",
-    phone: "9447070877"
+    email: "Helenjude71@gmail.com",
+    phone: "9847332000"
   },
-
-  // ===== Newly Added Associates =====
-
   {
     id: "athul-roy",
     name: "Athul Roy",
     role: "Associate",
     image: "/team/athul-roy.png",
+    image_zoom: 100,
     bio: "",
     expertise: [],
     education: [
@@ -164,30 +192,11 @@ export const teamData = [
     phone: "9061430452"
   },
   {
-    id: "renuka-venu",
-    name: "Renuka Venu",
-    role: "Associate",
-    image: "/team/renuka-venu.png",
-    bio: "",
-    expertise: [],
-    education: [
-      "BA LLB"
-    ],
-    experience: [
-      {
-        year: "7 years",
-        title: "Associate",
-        description: ""
-      }
-    ],
-    email: "paru.renuka@gmail.com",
-    phone: "8089269964"
-  },
-  {
     id: "indrajith-dileep",
     name: "Indrajith Dileep",
     role: "Associate",
     image: "/team/indrajith-dileep.png",
+    image_zoom: 120,
     bio: "",
     expertise: [],
     education: [
@@ -203,32 +212,12 @@ export const teamData = [
     ],
     email: "indrajithdileep2000@gmail.com",
     phone: "9496699550"
-  },
-  {
-    id: "amala-anna-thottupuram",
-    name: "Amala Anna Thottupuram",
-    role: "Associate",
-    image: "/team/amala-anna-thottupuram.png",
-    bio: "",
-    expertise: [],
-    education: [
-      "BBA LLB"
-    ],
-    experience: [
-      {
-        year: "1 year",
-        title: "Associate",
-        description: ""
-      }
-    ],
-    email: "annaamala247@gmail.com",
-    phone: "7902629981"
-  },
-  {
+  },{
     id: "abraham-p-korah",
     name: "Abraham P. Korah",
     role: "Associate",
     image: "/team/abraham-p-korah.png",
+    image_zoom: 100,
     bio: "",
     expertise: [],
     education: [
@@ -245,10 +234,32 @@ export const teamData = [
     phone: "9846040094"
   },
   {
-    id: "helen-p-a",
-    name: "Helen P A",
+    id: "amala-anna-thottupuram",
+    name: "Amala Anna Thottupuram",
     role: "Associate",
-    image: "/team/helen-p-a.png",
+    image: "/team/amala-anna-thottupuram.png",
+    image_zoom: 100,
+    bio: "",
+    expertise: [],
+    education: [
+      "BBA LLB"
+    ],
+    experience: [
+      {
+        year: "1 year",
+        title: "Associate",
+        description: ""
+      }
+    ],
+    email: "annaamala247@gmail.com",
+    phone: "7902629981"
+  },
+  {
+    id: "renuka-venu",
+    name: "Renuka Venu",
+    role: "Associate",
+    image: "/team/renuka-venu.png",
+    image_zoom: 100,
     bio: "",
     expertise: [],
     education: [
@@ -256,14 +267,16 @@ export const teamData = [
     ],
     experience: [
       {
-        year: "6 years",
+        year: "7 years",
         title: "Associate",
         description: ""
       }
     ],
-    email: "Helenjude71@gmail.com",
-    phone: "9847332000"
-  }
+    email: "paru.renuka@gmail.com",
+    phone: "8089269964"
+  },
+
+  
 ]
 
 

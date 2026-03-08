@@ -36,6 +36,7 @@ const Team = () => {
               name={lawyer.name}
               role={lawyer.role}
               image={lawyer.image}
+              image_zoom={lawyer.image_zoom}
               email={lawyer.email}
               phone={lawyer.phone}
             />
