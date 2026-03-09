@@ -95,11 +95,11 @@ const Index = () => {
             Accomplished attorneys dedicated to serving our clients with expertise and care
           </p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
           {featuredLawyers.map((lawyer, index) => (
             <div
               key={lawyer.id}
-              className="animate-slide-up"
+              className="animate-slide-up h-full"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <LawyerCard

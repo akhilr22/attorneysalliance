@@ -87,7 +87,7 @@ const Footer = () => {
         </div>
 
         {/* Social & Copyright */}
-        <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
+        {/* <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground font-light">
             © 2026 Attorneys' Alliance Services. All rights reserved.
           </p>
@@ -120,7 +120,7 @@ const Footer = () => {
               <Facebook className="h-5 w-5" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
