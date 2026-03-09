@@ -73,13 +73,14 @@ export const teamData = [
     role: "Partner | Litigation & Arbitration",
     image: "/team/s-prasanth.png",
     image_zoom: 100,
-    bio: "Advocate S. Prasanth has over 31 years of professional experience across civil, criminal, commercial, and arbitration matters. He regularly appears before the High Court of Kerala, the Armed Forces Tribunal, and various statutory and quasi-judicial bodies. He also serves as Standing Counsel to governmental and constitutional authorities and is known for his balanced, practical, and solution-oriented approach.",
+    bio: "Advocate S. Prasanth has over 31 years of professional experience across civil, criminal, commercial, and arbitration matters. He regularly appears before the High Court of Kerala, the Armed Forces Tribunal, and various subordinate courts. He also serves as Standing Counsel to governmental and constitutional authorities and is known for his balanced, practical, and solution-oriented approach.",
     expertise: [
       "Civil & Criminal Litigation",
       "Arbitration & Mediation",
       "Service Law",
       "Banking & Insurance Law",
-      "Tribunal Matters"
+      "Tribunal Matters",
+      "Medical Negligence"
     ],
     education: [],
     experience: [
@@ -123,7 +124,7 @@ export const teamData = [
     role: "Partner | Litigation & Arbitration",
     image: "/team/sooraj-t-elenjickal.png",
     image_zoom: 105,
-    bio: "Advocate Sooraj T. Elenjickal has over 26 years of experience before the Supreme Court of India, the High Court of Kerala, and various courts and tribunals. He handles a wide range of matters including constitutional, criminal, corporate, and financial disputes, and is known for his confident courtroom presence and his work in complex and sensitive cases.",
+    bio: "Advocate Sooraj T. Elenjickal has over 26 years of experience before the Supreme Court of India, the High Court of Kerala, and various courts and tribunals. He handles a wide range of matters including constitutional, criminal, corporate, and financial disputes, and is known for his confident courtroom presence and his work in complex and sensitive cases.His area of specialisation includes white collar crimes , customs , money laundering crimes and adjudication process connected thereto.",
     expertise: [
       "Criminal Law",
       "Writ Matters",
@@ -217,7 +218,7 @@ export const teamData = [
     name: "Abraham P. Korah",
     role: "Associate",
     image: "/team/abraham-p-korah.png",
-    image_zoom: 100,
+    image_zoom: 110,
     bio: "",
     expertise: [],
     education: [

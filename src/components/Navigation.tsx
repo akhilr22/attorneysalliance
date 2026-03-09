@@ -36,7 +36,7 @@ const Navigation = () => {
           <Link to="/" className="flex items-center gap-3 group">
             <img
               src="/attorneys_alliance_logo.png"
-              alt="Attorney's Alliance Logo"
+              alt="Attorneys' Alliance Logo"
               className={`h-14 w-auto transition-all duration-500 group-hover:scale-110 ${location.pathname.includes("lawyer") || scrolled
                 ? ""
                 : "brightness-0 invert"
@@ -44,7 +44,7 @@ const Navigation = () => {
             />
             <span className={`font-light text-lg tracking-wide transition-colors duration-500 ${location.pathname.includes("lawyer") ? "text-foreground" : scrolled ? "text-foreground" : "text-background"}
             }`}>
-              Attorney's Alliance
+              Attorneys' Alliance
             </span>
 
           </Link>

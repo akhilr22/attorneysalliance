@@ -46,7 +46,7 @@ const Index = () => {
       <DisclaimerPopup />
 
       <Hero
-        title={{ mainTitle: "ATTORNEY'S ALLIANCE", subTitle: "LAW FIRM" }}
+        title={{ mainTitle: "ATTORNEYS' ALLIANCE", subTitle: "LAW FIRM" }}
         subtitle="Trusted advisors providing strategic legal solutions for over 30 years"
       />
 
@@ -61,7 +61,7 @@ const Index = () => {
               Decades of Legal Excellence
             </h2>
             <p className="text-muted-foreground leading-relaxed font-light text-lg">
-              Attorney's Alliance Services combines deep expertise with innovative approaches to
+              Attorneys' Alliance Services combines deep expertise with innovative approaches to
               deliver exceptional results. We build lasting relationships based on trust and
               integrity.
             </p>

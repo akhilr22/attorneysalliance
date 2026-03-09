@@ -136,21 +136,8 @@ const Expertise = () => {
       ],
     },
     {
-      icon: Landmark,
-      title: "Government Relations",
-      description:
-        "Strategic government affairs and regulatory advocacy services to help navigate complex governmental processes and regulations.",
-      services: [
-        "Regulatory Affairs",
-        "Government Contracting",
-        "Lobbying & Advocacy",
-        "Public Policy",
-        "Administrative Law",
-      ],
-    },
-    {
       icon: Shield,
-      title: "Healthcare Law",
+      title: "Healthcare Law & Medical Negligence",
       description:
         "Specialized legal services for healthcare providers, hospitals, and pharmaceutical companies, navigating complex regulatory environments.",
       services: [

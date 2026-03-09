@@ -11,11 +11,11 @@ const Footer = () => {
             <Link to="/" className="flex items-center gap-3 mb-4 group">
               <img
                 src="/attorneys_alliance_logo.png"
-                alt="Attorney's Alliance Logo"
+                alt="Attorneys' Alliance Logo"
                 className="h-16 w-auto transition-transform duration-300 group-hover:scale-110"
               />
               <span className="font-light text-lg tracking-wide text-foreground">
-                Attorney's Alliance
+                Attorneys' Alliance
               </span>
             </Link>
             <p className="text-muted-foreground text-sm font-light leading-relaxed">
@@ -89,7 +89,7 @@ const Footer = () => {
         {/* Social & Copyright */}
         <div className="pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground font-light">
-            © 2026 Attorney's Alliance Services. All rights reserved.
+            © 2026 Attorneys' Alliance Services. All rights reserved.
           </p>
           <div className="flex gap-6">
             <a

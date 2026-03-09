@@ -70,16 +70,16 @@ const Hero = ({ title, subtitle, showCTA = true, height = "full" }: HeroProps) =
 
       {/* Scroll Indicator */}
       {height === "full" && (
-        <button
-          onClick={scrollToContent}
-          className="absolute bottom-12 left-1/2 -translate-x-1/2 text-background/60 hover:text-background transition-all duration-500 cursor-pointer animate-bounce"
-          aria-label="Scroll to content"
-        >
-          <div className="flex flex-col items-center gap-2">
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2">
+          <button
+            onClick={scrollToContent}
+            className="flex flex-col items-center gap-2 text-background/60 hover:text-background transition-all duration-500 cursor-pointer animate-bounce"
+            aria-label="Scroll to content"
+          >
             <ChevronDown className="h-6 w-6" />
             <span className="text-xs font-light tracking-widest">SCROLL</span>
-          </div>
-        </button>
+          </button>
+        </div>
       )}
     </section>
   );
