@@ -47,7 +47,7 @@ const Index = () => {
 
       <Hero
         title={{ mainTitle: "ATTORNEYS' ALLIANCE", subTitle: "LAW FIRM" }}
-        subtitle="Trusted advisors providing strategic legal solutions for over a decade"
+        subtitle="Trusted advisors providing strategic legal solutions for decades"
       />
 
       {/* About Section */}

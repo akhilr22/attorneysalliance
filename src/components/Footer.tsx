@@ -19,7 +19,7 @@ const Footer = () => {
               </span>
             </Link>
             <p className="text-muted-foreground text-sm font-light leading-relaxed">
-              Excellence in legal counsel. Trusted advisors for over a decade.
+              Trusted advisors providing strategic legal solutions for decades.
             </p>
           </div>
 

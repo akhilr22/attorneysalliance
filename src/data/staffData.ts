@@ -29,5 +29,11 @@ export const staffData: Staff[] = [
         role: "Advocate Clerk",
         email: "",
         phone: "+919846400291"
+    },
+    {
+        name: "Gopalakrishnan",
+        role: "Office Assistant",
+        email: "",
+        phone: "+919961518442"
     }
 ];

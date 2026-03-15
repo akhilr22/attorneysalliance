@@ -19,7 +19,7 @@ export interface Lawyer {
 export const teamData = [
   {
     id: "s-gopakumaran-nair",
-    name: "Dr. S. Gopakumaran Nair",
+    name: "Sr. Adv. S. Gopakumaran Nair (Dr.)",
     role: "Chairman | Senior Advocate",
     image: "/team/s-gopakumaran-nair.png",
     image_zoom: 100,
@@ -151,7 +151,7 @@ export const teamData = [
   // ===== Newly Added Associates =====
 {
     id: "helen-p-a",
-    name: "Helen P A",
+    name: "Adv. Helen P A",
     role: "Associate",
     image: "/team/helen-p-a.png",
     image_zoom: 100,
@@ -172,7 +172,7 @@ export const teamData = [
   },
   {
     id: "athul-roy",
-    name: "Athul Roy",
+    name: "Adv. Athul Roy",
     role: "Associate",
     image: "/team/athul-roy.png",
     image_zoom: 100,
@@ -194,7 +194,7 @@ export const teamData = [
   },
   {
     id: "indrajith-dileep",
-    name: "Indrajith Dileep",
+    name: "Adv. Indrajith Dileep",
     role: "Associate",
     image: "/team/indrajith-dileep.png",
     image_zoom: 120,
@@ -215,7 +215,7 @@ export const teamData = [
     phone: "9496699550"
   },{
     id: "abraham-p-korah",
-    name: "Abraham P. Korah",
+    name: "Adv. Abraham P. Korah",
     role: "Associate",
     image: "/team/abraham-p-korah.png",
     image_zoom: 110,
@@ -236,7 +236,7 @@ export const teamData = [
   },
   {
     id: "amala-anna-thottupuram",
-    name: "Amala Anna Thottupuram",
+    name: "Adv. Amala Anna Thottupuram",
     role: "Associate",
     image: "/team/amala-anna-thottupuram.png",
     image_zoom: 100,
@@ -257,7 +257,7 @@ export const teamData = [
   },
   {
     id: "renuka-venu",
-    name: "Renuka Venu",
+    name: "Adv. Renuka Venu",
     role: "Associate",
     image: "/team/renuka-venu.png",
     image_zoom: 100,

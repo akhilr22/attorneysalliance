@@ -1,14 +1,37 @@
-User-agent: Googlebot
-Allow: /
+# robots.txt for Attorneys Alliance
+# https://attorneysalliance.co.in/
 
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
+# Allow all well-behaved crawlers full access
 User-agent: *
 Allow: /
+
+# Disallow 404 / catch-all route (not a real page)
+Disallow: /404
+
+# --- Explicitly allow important pages ---
+# Home
+Allow: /
+# About
+Allow: /about
+# Our Team
+Allow: /team
+# Expertise
+Allow: /expertise
+# Contact
+Allow: /contact
+
+# --- Lawyer profile pages ---
+Allow: /lawyer/s-gopakumaran-nair
+Allow: /lawyer/p-sreekumar
+Allow: /lawyer/s-1anth
+Allow: /lawyer/cr-syam-kumar
+Allow: /lawyer/sooraj-t-elenjickal
+Allow: /lawyer/helen-p-a
+Allow: /lawyer/athul-roy
+Allow: /lawyer/indrajith-dileep
+Allow: /lawyer/abraham-p-korah
+Allow: /lawyer/amala-anna-thottupuram
+Allow: /lawyer/renuka-venu
+
+# Sitemap location
+Sitemap: https://attorneysalliance.co.in/sitemap.xml
