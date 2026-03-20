@@ -65,14 +65,14 @@ const Index = () => {
               deliver exceptional results. We build lasting relationships based on trust and
               integrity.
             </p>
-            <Button
+            {/* <Button
               asChild
               size="lg"
               variant="outline"
               className="rounded-full px-8 transition-all duration-500 hover:scale-105"
             >
               <Link to="/about">Discover Our Story</Link>
-            </Button>
+            </Button> */}
           </div>
           <div className="order-1 md:order-2 rounded-3xl overflow-hidden animate-fade-in group">
             <img
