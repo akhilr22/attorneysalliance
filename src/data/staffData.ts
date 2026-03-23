@@ -8,7 +8,7 @@ export interface Staff {
 export const staffData: Staff[] = [
     {
         name: "Lissie Joseph",
-        role: "Receptionist",
+        role: "Stenographer",
         email: "",
         phone: "+918129114936"
     },
@@ -32,7 +32,7 @@ export const staffData: Staff[] = [
     },
     {
         name: "Gopalakrishnan",
-        role: "Office Assistant",
+        role: "Stenographer",
         email: "",
         phone: "+919961518442"
     }

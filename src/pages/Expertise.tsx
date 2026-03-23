@@ -30,6 +30,7 @@ const Expertise = () => {
         "Corporate Governance",
         "Securities & Capital Markets",
         "Contract Negotiation",
+        "Representation before MCA , NCLT and NCLAT"
       ],
     },
     {
